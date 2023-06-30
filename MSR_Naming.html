@@ -58,6 +58,20 @@
     display: block;
 
     }
+
+    .footer-logo {
+      display: block;
+      margin: auto;
+    }
+
+    @media (min-width: 768px) {
+
+    .footer-logo {
+      float: right;
+      }
+
+
+    }
   </style>
   <!-- replace with your favicon png 16x16 or delete-->
   <link rel="icon" href="https://image.sfdc.msrenewal.com/lib/fe3b11717164047e771673/m/1/b97ba000-bb5c-4b2b-b9c0-3b1d22d72bda.png">
@@ -85,7 +99,7 @@
   <!-- End of logo section -->
 
 <div class="container p-4" >
-  <div class="row" style="background-color:#ffffff;margin: 60px auto 0px auto;
+  <div class="row" style="background-color:#ffffff;margin: 70px auto 70px auto;
   max-width:650px;border-radius:10px; padding: 20px">
 
     <div class="col-12">
@@ -146,14 +160,14 @@
 
 
     <div class="form-group col-12  pt-4">
-      <label >Final Output</label>
+      <label >Final Output:</label>
       <div style="background-color:#f8f3ec;color:#00487a;border:none;border-radius:5px;word-wrap: break-word;" class=" align-self-center">
         <p id="finalOutput" style="padding: 10px">Campaign name will be shown here</p>
       </div>
     </div>
 
     <div class="form-group col-12  ">
-      <label >Assets</label>
+      <label >Assets:</label>
       <div style="background-color:#f8f3ec;color:#00487a;border:none;border-radius:5px;" class=" align-self-center">
         <p id="Assets" style="padding: 10px;word-wrap: break-word;">Assets will be shown here</p>
       </div>
@@ -169,6 +183,25 @@
 
   </div>
 </div>
+
+<!-- footer -->
+
+<footer class="container-fluid msr-footer p-2" style="background-color:#414242;color:#ffffff">
+  <div class="container">
+    <div class="row footer-row pt-2 d-flex flex-row-reverse">
+      <div class="col-12   pb-4">
+        <a href="https://www.msrenewal.com" target="_blank">
+        <img class="footer-logo" src="https://image.sfdc.msrenewal.com/lib/fe3b11717164047e771673/m/1/3e1ad534-60d2-475d-b236-4050f5ca2fbe.jpg" style="width:200px; padding-bottom: 10px;"/></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
 
 <script type="text/javascript">
 
