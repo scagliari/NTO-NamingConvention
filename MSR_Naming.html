@@ -70,6 +70,21 @@
       float: right;
       }
 
+      body {
+        min-height: 100vh;
+        margin:0; }
+
+      footer {
+        min-height:100px;
+        background:#424242; }
+
+      body {
+        display:flex;
+        flex-direction:column; }
+
+      .main {
+        flex:1; }
+
 
     }
   </style>
@@ -98,7 +113,7 @@
 </div>
   <!-- End of logo section -->
 
-<div class="container p-4" >
+<div class="container p-4 main" >
   <div class="row" style="background-color:#ffffff;margin: 70px auto 70px auto;
   max-width:650px;border-radius:10px; padding: 20px">
 
@@ -154,6 +169,9 @@
         <option value="EM">Email</option>
         <option value="LCSMS">Long Code SMS</option>
         <option value="SCSMS">Short Code SMS</option>
+        <option value="CP">Cloudpage</option>
+        <option value="IMG">Image</option>
+        <option value="CB">Content Block</option>
       </select>
     </div>
 
@@ -165,7 +183,7 @@
 
 
     <div class="form-group col-12  pt-4">
-    
+
       <div style="background-color:#f8f3ec;color:#00487a;border:none;border-radius:5px;word-wrap: break-word;" class=" align-self-center">
         <p id="finalOutput" style="padding: 10px">Output will be shown here</p>
       </div>
@@ -191,7 +209,7 @@
 
 <!-- footer -->
 
-<footer class="container-fluid msr-footer p-2" style="background-color:#414242;color:#ffffff">
+<footer class="container-fluid msr-footer p-2" style="color:#ffffff">
   <div class="container">
     <div class="row footer-row pt-2 d-flex flex-row-reverse">
       <div class="col-12   pb-4">
